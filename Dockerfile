@@ -4,7 +4,6 @@ ARG REACT_APP_TG_API_HASH
 
 WORKDIR /apps
 
-COPY yarn.lock .
 COPY package.json .
 COPY api/package.json api/package.json
 COPY web/package.json web/package.json
